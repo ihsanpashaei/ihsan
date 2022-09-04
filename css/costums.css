@@ -1,0 +1,363 @@
+@font-face {
+    font-family: IRAN Sans Regular;
+    src: url(/font/IRAN-Sans-Regular.eot);
+    src: url(/font/IRAN-Sans-Regular.eot?#iefix) format('embedded-opentype'),
+         url(/font/IRAN-Sans-Regular.otf) format('otf'),
+         url(/font/IRAN-Sans-Regular.woff) format('woff'),
+         url(/font/IRAN-Sans-Regular.woff2) format('woff2'),
+}
+@font-face {
+    font-family: Sahel;
+    src: url(/font/Sahel.eot);
+    src: url(/font/Sahel.eot?#iefix) format('embedded-opentype'),
+         url(/font/Sahel.woff2) format('woff2'),
+         url(/font/Sahel.woff) format('woff'),
+         url(/font/Sahel.ttf) format('truetype');
+    font-weight: normal;
+  }
+        
+  @font-face {
+    font-family: Sahel;
+    src: url(/font/Sahel-Bold.eot);
+    src: url(/font/Sahel-Bold.eot?#iefix) format('embedded-opentype'),
+         url(/font/Sahel-Bold.woff2) format('woff2'),
+         url(/font/Sahel-Bold.woff) format('woff'),
+         url(/font/Sahel-Bold.ttf) format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url(/font/Sahel-Light.eot);
+    src: url(/font/Sahel-Light.eot?#iefix) format('embedded-opentype'),
+         url(/font/Sahel-Light.woff2) format('woff2'),  
+         url(/font/Sahel-Light.woff) format('woff'),
+         url(/font/Sahel-Light.ttf) format('truetype');
+    font-weight: 300;
+  }
+        
+  @font-face {
+    font-family: Sahel;
+    src: url(/font/Sahel-SemiBold.eot);
+    src: url(/font/Sahel-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(/font/Sahel-SemiBold.woff2) format('woff2'),  
+         url(/font/Sahel-SemiBold.woff) format('woff'),
+         url(/font/Sahel-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url(/font/Sahel-Black.eot);
+    src: url(/font/Sahel-Black.eot?#iefix) format('embedded-opentype'),
+         url(/font/Sahel-Black.woff2) format('woff2'),  
+         url(/font/Sahel-Black.woff) format('woff'),
+         url(/font/Sahel-Black.ttf) format('truetype');
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: Sahel VF;
+    src: url(/font/Sahel-VF.woff2) format('woff2');
+  }
+  
+  .foo {
+    font-family: Sahel VF;
+    font-variation-settings: "wght" 600;
+  }
+  
+  .bar {
+    font-family: Sahel VF;
+    font-variation-settings: "wght" 900;
+  }
+  
+  @font-face {
+    font-family: Tanha;
+    src: url(/font/Tanha.eot);
+    src: url(/font/Tanha.eot?#iefix) format('embedded-opentype'),
+         url(/font/Tanha.woff2) format('woff2'),
+         url(/font/Tanha.woff) format('woff'),
+         url(/font/Tanha.ttf) format('truetype');
+    font-weight: normal;
+  }
+
+body {
+    font-family: "IRAN Sans Regular";
+}
+
+.logo {
+    height: 30px;
+}
+
+/* .logo {
+    font-family: 'THE SOLSTICE';
+    text-decoration: none;
+    font-size: 30px;
+    color: white
+}
+.logo:hover {
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #00ac09 0%,
+     #5bbb60 29%,
+     #201d1d 67%,
+     #093d21 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 3s linear infinite;
+   display: inline-block;
+ }
+ @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  */
+
+/* background heading */
+.bg-top-heading {
+    background-image: url(/img/bg-head.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    height: 600px;
+}
+.bg-transport {
+    background-color: rgba(255, 255, 255, 0.45);
+    height: 600px;
+}
+
+.mt-bg-text {
+    margin-right: 4rem;
+}
+
+.mtl-bg-img {
+    margin-top: 13rem;
+    margin-right: -13rem;
+}
+
+.running {
+    position: relative;
+    animation: car-run 7s linear infinite alternate;
+}
+
+@keyframes car-run {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 100px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px
+    }
+
+    75% {
+        left: 100px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/* header nav li {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+header nav li:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+} */
+
+.about-me img {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+.about-me img:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+.contact-me img {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+.contact-me img:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+.contact-me li {
+    list-style: none;
+}
+
+
+.item-italic {
+    font-style: normal;
+}
+
+.icon-groups li {
+    list-style: none;
+}
+
+.mr-i-li {
+    margin-right: -40px;
+}
+
+@media only screen and (max-width: 991px) {
+    .icon-groups ul {
+        margin-top: 20px;
+        margin-right: -25px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .icon-groups li {
+        margin-right: -15px;
+    }
+}
+
+.icon-hover {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+.icon-hover:hover {
+    transform: scale(2);
+    transition: all ease 0.3s;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.album img {
+    transition: 0.3s;
+    cursor: pointer;
+    filter: blur(1px);
+}
+
+.album img:hover {
+    width: 100%;
+    transform: scale(1.1);
+    filter: blur(0);
+}
+.rounded-top-radius {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;    
+}
+
+.album li {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+.album li:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+footer li {
+    transform: none;
+    transition: all ease 0.3s;
+}
+
+footer li:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+@media only screen and (max-width: 990px) {
+    .end2end {
+        margin-right: -25px;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .img-oramanat {
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .car-img {
+        width: 400px;
+        margin: auto;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .car-img {
+        width: 400px;
+        margin: auto;
+        margin-top: -12%;
+        margin-right: 40%;
+    }
+}
+@media only screen and (max-width:720px) {
+    .car-img {
+        width :370px;
+        margin: auto;
+        margin-top: -10%;
+        margin-right: 18%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .car-img {
+        margin-top: 16%;
+    }
+}
+
+/* font family and weight and color for title */
+.title-font {
+    font-family: 'Sahel';
+    font-weight: bolder !important;
+    color: #464646;
+}
+.font-color-p {
+    color: #404040;
+    font-family: 'Tanha' !important;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-hover {
+    transform: none;
+    transition: .3s;
+  }
+
+  .btn-hover:hover {
+    transform: scale(1.3);
+    transition: .3s;
+  }
+
+.album a {
+    border-top-left-radius: 0% ;
+    border-top-right-radius: 0%;
+}
